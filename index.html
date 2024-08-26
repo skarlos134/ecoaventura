@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <i class="fa-solid fa-bars menu-toggle"></i>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li>
+              <a href="#">Destinos</a>
+              <ul class="submenu">
+                <li><a href="#amazonia">Amazonia</a></li>
+                <li><a href="#guajira">Guajira</a></li>
+                <li><a href="#llanos">Llanos</a></li>
+                <li><a href="#cundinamarca">Cundinamarca</a></li>
+              </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="logo">
+        <img src="asets/logo ecoaventura.png" alt="Logo EcoAventura" />
+      </div>
+
+      <section class="card-group">
+        <a href="amazonia.html">
+          <div class="card-uno" id="cardUno">
+            <img src="asets/amazonasPortada.jpeg" alt="Amazonia" />
+            <div class="card-info">
+              <h2 class="card-uno-titulo">Amazonia</h2>
+              <span class="card-vermas">ver más</span>
+            </div>
+          </div>
+        </a>
+        <a href="guajira.html">
+          <div class="card-uno" id="cardUno">
+            <img src="asets/guajiraDos.jpeg" alt="Guajira" />
+            <div class="card-info">
+              <h2 class="card-uno-titulo">Guajira</h2>
+              <span class="card-vermas">ver más</span>
+            </div>
+          </div>
+        </a>
+        <a href="ejecafetero.html">
+          <div class="card-uno" id="cardUno">
+            <img src="asets/ejecafeteroPortada.jpg" alt="Ejecafetero" />
+            <div class="card-info">
+              <h2 class="card-uno-titulo">Ejecafetero</h2>
+              <span class="card-vermas">ver más</span>
+            </div>
+          </div>
+        </a>
+        <a href="cundinamarca.html">
+          <div class="card-uno" id="cardUno">
+            <img src="asets/cundinamarcaUno.jpeg" alt="Cundinamarca" />
+            <div class="card-info">
+              <h2 class="card-uno-titulo">Cundinamarca</h2>
+              <span class="card-vermas">ver más</span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section class="blog">
+        <div class="card-blog">
+          <h3>
+            Jose Martinez <br />
+            Amazonia
+          </h3>
+          <p>
+            Explora la Amazonía, un viaje único al corazón de la selva donde te
+            rodean ríos majestuosos y árboles milenarios. Recorre senderos
+            ocultos, observa fauna exótica y conecta con culturas ancestrales en
+            una experiencia inmersiva en el pulmón verde del planeta.
+          </p>
+          <h3 class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
+          </h3>
+        </div>
+        <div class="card-blog">
+          <h3>
+            Laura Gomez <br />
+            Eje Cafetero
+          </h3>
+          <p>
+            Visitar el Eje Cafetero fue increíble. Me encantó recorrer las
+            fincas cafeteras, aprender sobre el cultivo del café y disfrutar de
+            una taza mientras admiraba los verdes paisajes montañosos. La
+            calidez de la gente y los coloridos pueblos hicieron que mi
+            experiencia fuera aún más especial. ¡Sin duda, un lugar al que
+            quiero regresar!
+          </p>
+          <h3 class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
+          </h3>
+        </div>
+        <form action="" class="resena">
+          <input type="text" id="nombre" placeholder="Nombre" />
+          <input type="text" id="destino" placeholder="Destino" />
+          <input type="text" id="resena" placeholder="Reseña" />
+          <input type="number" id="estrellas" placeholder="Estrellas" />
+          <button class="btn-agg-entrada">
+            Publicar <i class="fa-solid fa-upload"></i>
+          </button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 EcoAventura. Todos los derechos reservados.</p>
+          <nav class="footer-nav">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Contacto</a>
+          </nav>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
